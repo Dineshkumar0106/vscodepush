@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    
+    min-height: 100vh;
+    /* padding: 20px; */
+}
+.head{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.log{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: absolute;
+    top:10px;
+    right: 20px;
+    background: linear-gradient(135deg, #00E676, #00C853);
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}  
+.log:hover{
+    background: linear-gradient(135deg, #00C853, #00B248);
+}
+.section{
+    width: 100%;
+    /* height: 150px; */
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    gap: 50px;
+}
+.weather-url, .calc-url{
+    flex: 1;
+    background-color: aqua;
+    width: 100%;
+    height: 50vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.weather-url{
+    background-image: url('image/weather_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;      /* fills the card */
+    background-position: center;
+}
+.calc-url{
+    background-image: url('image/calculator_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;      /* fills the card */
+    background-position: center;
+}

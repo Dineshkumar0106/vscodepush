@@ -1,0 +1,17 @@
+.map-card{
+    /* width: 500px; */
+    /* height: 400px; */
+    display: none;
+    position: absolute;
+    top: 35%;
+    right: 200px;
+    /* border-radius: 20px;
+    background-color: aliceblue; */
+}
+iframe{
+    border-radius: 20px;
+    border: none;
+    width: 500px;
+    height: 400px;
+
+}

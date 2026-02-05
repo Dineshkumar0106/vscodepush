@@ -1,0 +1,212 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url('image/backgroundimage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.head{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+}
+input[type=text]{
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    color: #263238;
+    background-color: rgba(255, 255, 255, 0.9)
+}
+input::placeholder {
+    color: #607D8B;
+}
+.city_name{
+    /* background-color: #97f83d; */
+    border: 1px solid rgba(255,255,255,0.4);
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.search_button{
+    background: linear-gradient(135deg, #FFD54F, #FFB300);
+    border: 1px solid rgba(255,255,255,0.4);
+    cursor: pointer;
+    padding: 5px 15px 9px 15px;
+    border-radius: 20px;
+    color: #263238;   
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.search_button:hover{
+    background-color: #e6c91a;
+}
+.weather-icon{
+    height: 224px;
+    width: 224px;
+}
+.weather, .error, .card{
+    display: none;
+}
+.card{
+    width: 90%;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 40px 0 0 200px;
+    border-radius: 30px;
+    padding-bottom: 10px;
+    /* padding-top: 10px; */
+    margin-bottom: 10px;
+}
+.log{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: absolute;
+    top:10px;
+    right: 20px;
+    background: linear-gradient(135deg, #00E676, #00C853);
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}  
+.log:hover{
+    background: linear-gradient(135deg, #00C853, #00B248);
+}
+input, input:focus{
+  border: none;
+  outline: none;
+}
+.error{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.weather{
+    position: relative; 
+    color: #fafbfc;
+}
+.pd, .pt, .pdate, .ptime{
+    position: absolute;
+    font-size:28px;
+    text-shadow: 
+        0 0 5px rgba(255, 255, 255, 0.2),
+        0 0 15px rgba(255, 255, 255, 0.4);
+}
+.pd{
+    top: 20px;
+    left: 59px;
+}
+.pt{
+    top: 20px;
+    right: 50px;
+}
+.pdate, .ptime{
+    /* margin-top: 5px; */
+    font-size: 28px;
+}
+.pdate{
+    left: 25px;
+    top: 60px;
+}
+.ptime{
+    right: 33px;
+    top: 60px;
+}
+.temp{
+    font-size: 80px;
+    /* font-weight: 300; */
+    text-align: center;
+    color: #fff;
+    /* margin-top: 10px; */
+    text-shadow: 
+        0 0 5px rgba(0,0,0,0.6),
+        0 0 15px rgba(0,0,0,0.4);
+}
+.city{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 10px;
+    /* margin-bottom: 20px; */
+    color: #E0F7FA;
+    text-shadow: 
+        0 0 5px rgba(0,0,0,0.6),
+        0 0 15px rgba(0,0,0,0.4);
+}
+.weather_icon{
+    width: 170px;
+    margin: 0 auto 0 auto;
+    padding-top: 25px;
+    display: block;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    /* margin-top: 5px; */
+    text-align: center;
+    font-size: 28px;
+}
+.icon{
+    width: 40px;
+    /* margin-right: 10px; */
+}
+.col{
+    font-size: 28px;
+}
+.calc_link{
+    width: 100px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: absolute;
+    top:10px;
+    left: 20px;
+    background: linear-gradient(135deg, #00E676, #00C853);
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}   
+.calc_link:hover{
+    background: linear-gradient(135deg, #00C853, #00B248);
+}
+.dash_link{
+    width: 100px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: absolute;
+    top:70px;
+    left: 20px;
+    background: linear-gradient(135deg, #00E676, #00C853);
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}   
+.dash_link:hover{
+    background: linear-gradient(135deg, #00C853, #00B248);
+}
