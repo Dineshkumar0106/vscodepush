@@ -54,7 +54,7 @@ if(isset($_POST['login'])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="icon" type="image/x-icon" href="login.jpg">
+    <link rel="icon" type="image/x-icon" href="image/login.jpg">
     <link rel="stylesheet" href="register.css">
 </head>
 <body>

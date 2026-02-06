@@ -90,7 +90,7 @@ if(isset($_POST['register'])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
-    <link rel="icon" type="image/x-icon" href="register.jpg">
+    <link rel="icon" type="image/x-icon" href="image/register.jpg">
     <link rel="stylesheet" href="register.css">
 </head>
 <body>
